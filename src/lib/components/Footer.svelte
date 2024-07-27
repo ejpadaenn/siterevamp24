@@ -1,10 +1,12 @@
 <script>
     import { onMount } from 'svelte'
 
+    import { base } from '$app/paths'
+
     onMount(() => {
         console.log('attaching scrollreveal js');
         const config = document.createElement('script');
-        config.src = '$lib/scrollreveal.js'; // might be outdated so check for an update can link
+        config.src = '{BASE}/lib/scrollreveal.js'; // might be outdated so check for an update can link
         config.async= true;
         document.body.appendChild(config);
     });
