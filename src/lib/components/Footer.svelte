@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    <script src="lib/scrollreveal.js"></script>
+    <script src="src/lib/scrollreveal.js"></script>
 </html>
 
 <style>
