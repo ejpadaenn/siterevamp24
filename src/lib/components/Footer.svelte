@@ -26,6 +26,8 @@
             <h3 class="email">JENNIFERU.CNCI@gmail.com</h3>
         </div>
     </div>
+
+    <script src="{base}/lib/scrollreveal.js"></script>
 </html>
 
 <style>
