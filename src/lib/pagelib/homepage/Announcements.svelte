@@ -13,9 +13,9 @@
 </script>
 
 <html lang="en">
-    <div class="mcontainer reveal">
+    <div class="mcontainer">
         <h1>Announcements</h1>
-        <div class="carousel reveal">
+        <div class="carousel">
             <Carousel 
             duration="5000"/>
         </div>

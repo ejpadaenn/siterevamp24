@@ -12,13 +12,13 @@
 <!--add a background image to make more interesting-->
 <html lang="en">
     <div class="midpagecontainer">
-        <div class="section1 reveal">
+        <div class="section1">
             <h1 class="section1text">Find a church near you!</h1>
             <div class="attendbutton">
                 <a href="/churches"><p class="plink">Locations</p></a>
             </div>
         </div>
-        <div class="section2 reveal">
+        <div class="section2">
             <h2>...can't attend our services?</h2>
             <div class="livebutton">
                 <a href="https://www.facebook.com/cnci.newzealand"><p class="pother">Join us online!</p></a>

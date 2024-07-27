@@ -1,20 +1,6 @@
-<script>
-    import { onMount } from 'svelte'
-
-    import { base } from '$app/paths'
-
-    onMount(() => {
-        console.log('attaching scrollreveal js');
-        const config = document.createElement('script');
-        config.src = '{BASE}/lib/scrollreveal.js'; // might be outdated so check for an update can link
-        config.async= true;
-        document.body.appendChild(config);
-    });
-</script>
-
 <html lang="en">
     <div class="footerwrap" id="contact">
-        <h1 class="maintext reveal">Contact us!</h1>
+        <h1 class="maintext">Contact us!</h1>
         <div class="mailwrap">
             <h2>Mailing Address</h2>
             <h3>8 Mountwell Crescent, Auckland, New Zealand.</h3>

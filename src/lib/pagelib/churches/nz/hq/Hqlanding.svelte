@@ -24,8 +24,8 @@
     </div>
 
     <div class="servicecontainer">
-        <h2 id="title2" class="reveal">Services</h2>
-        <div class="cardcontainer reveal">
+        <h2 id="title2">Services</h2>
+        <div class="cardcontainer">
             <a href="https://maps.app.goo.gl/Vf39tep6YNaqk5ab8" target="_blank"><div class="card">
                 <h2 class="cardtitle">10:00am Service</h2>
                 <div class="cardtextcon">
@@ -196,11 +196,4 @@
         letter-spacing: 0.1rem;
     }
 
-    .reveal {
-        position: relative;
-        transform: translateY(50px);
-        opacity: 0;
-
-        transition: all 1s ease;
-    }
 </style>
